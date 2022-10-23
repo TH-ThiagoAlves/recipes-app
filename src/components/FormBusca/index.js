@@ -52,7 +52,7 @@ function FormBusca(props) {
     <form className="search-session">
       <input
         data-testid="search-input"
-        id="textSearch"
+        className="textSearch"
         type="text"
         placeholder="Digite aqui"
         value={ textSearch }

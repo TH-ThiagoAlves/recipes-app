@@ -56,11 +56,11 @@ function CardsFavorite(props) {
           </button>
 
           {recipe.alcoholicOrNot === '' ? (
-            <p data-testid={ `${index}-horizontal-top-text` }>
+            <p data-testid={ `${index}-horizontal-top-text` } className="top-text">
               {`${recipe.nationality} - ${recipe.category}`}
             </p>
           ) : (
-            <p data-testid={ `${index}-horizontal-top-text` }>
+            <p data-testid={ `${index}-horizontal-top-text` } className="top-text">
               {recipe.alcoholicOrNot}
             </p>
           )}

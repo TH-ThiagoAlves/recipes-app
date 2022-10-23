@@ -30,7 +30,7 @@
   right: 57px;
 }
 
-#textSearch {
+.textSearch {
   background: white;
   border: 3px solid #33cc95;
   border-radius: 10px;
